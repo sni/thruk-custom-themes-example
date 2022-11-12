@@ -1,0 +1,47 @@
+/* CustomLight.css */
+@import '../base.css';
+
+/*******************************************************************************
+ * override colors from base theme (Light)
+ */
+:root {
+  --navbar-item-hover-fg:     #eee;
+  --navbar-item-hover-bg:     #0074a8;
+}
+
+DIV.main-header-button {
+  --button-fg:                #eee;
+  --button-bg:                #0074a8;
+  --button-hover-fg:          #eee;
+  --button-hover-bg:          #116688;
+}
+
+/*******************************************************************************
+* navbar page
+*/
+.navsectiontitle:hover I {
+  @apply text-inherit;
+}
+
+/*******************************************************************************
+* custom login page
+*/
+BODY.loginpage {
+  @apply bg-gradient-to-t from-[#fff] via-[#d2d2d2] to-[#a9a9a9];
+  background-image: url("../images/login-page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  --card-bg: #f5f5f5;
+
+  DIV.loginmask {
+    BUTTON, A.button {
+      @apply bg-[#0074a8] text-white hover:bg-[#116688] hover:text-white;
+    }
+    DIV.spinner {
+      --text-body: #fff;
+    }
+  }
+}

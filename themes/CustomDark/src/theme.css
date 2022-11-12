@@ -1,0 +1,30 @@
+@import './Dark/src/Dark.css';
+
+/*******************************************************************************
+ * override colors from base theme (Dark)
+ */
+:root {
+  --navbar-item-hover-fg:     #eee;
+  --navbar-item-hover-bg:     #0074a8;
+}
+
+DIV.main-header-button {
+  --button-fg:                #eee;
+  --button-bg:                #0074a8;
+  --button-hover-fg:          #eee;
+  --button-hover-bg:          #116688;
+}
+
+/*******************************************************************************
+* login page
+*/
+BODY.loginpage {
+  DIV.loginmask {
+    BUTTON, A.button {
+      @apply bg-[#0074a8] text-white hover:bg-[#116688] hover:text-white;
+    }
+    DIV.spinner {
+      --text-body: #fff;
+    }
+  }
+}
