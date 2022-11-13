@@ -1,6 +1,8 @@
 # Thruk Custom Themes
 
-This repository contains two examples on how to create a custom theme for Thruk.
+This repository contains two examples on how to create a custom theme for [Thruk](https://www.thruk.org).
+
+Get more information about Thruk themes here: https://www.thruk.org/documentation/themes.html
 
 ## Build Requirements
 
@@ -33,4 +35,3 @@ Instead of copying the dest folder, you can then symlink the `theme/MyTheme` to 
 
 
 Have a look at the `https://.../thruk/cgi-bin/themes.cgi` page to get a quick overview of available components to style.
-

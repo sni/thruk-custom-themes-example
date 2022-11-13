@@ -2,6 +2,8 @@
 
 /*******************************************************************************
  * override colors from base theme (Dark)
+ * all available colors and their defaults are listed here:
+ * https://github.com/sni/Thruk/blob/master/themes/base.css
  */
 :root {
   --navbar-item-hover-fg:     #eee;
